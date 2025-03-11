@@ -1,0 +1,137 @@
+/* #region =============== Common Styles =============== */
+:root {
+  --black: #111;
+  --orange: #fd9222;
+  --violet: #1e1823;
+  --beige: #fcf1e0;
+  --light: #fafafa;
+  --gray: #4c4c4c;
+  --white: #fff;
+  --marker-body: #4c4c4c;
+  --marker-border: #eceded;
+}
+
+:root {
+  --font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  font-family: --font-family;
+  color: var(--black);
+  background-color: var(--light);
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* #endregion =============== /Common Styles =============== */
+/*!===============================================*/
+/* #region =============== Header Styles =============== */
+
+.page-header {
+}
+.logo {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.11;
+  letter-spacing: -0.03em;
+  color: #111;
+  text-transform: capitalize;
+}
+
+.logo-part {
+  font-style: italic;
+}
+
+.logo:hover,
+.logo:focus,
+.nav-list-link:hover,
+.nav-list-link:focus {
+  color: #fd922f;
+}
+
+.page-nav {
+}
+.nav-list {
+}
+.nav-list-item {
+}
+.nav-list-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: -0.02em;
+}
+.social-list {
+}
+.social-list-item {
+}
+.social-list-link {
+}
+
+/* #endregion =============== /Header Styles =============== */
+/*!===============================================*/
+/* #region =============== Hero Styles =============== */
+
+.hero {
+  background: rgba(17, 17, 17, 0.7);
+}
+
+.hero-title {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1.21;
+  letter-spacing: -0.03em;
+  color: var(--white);
+}
+
+.hero-button {
+  border-radius: 100px;
+  padding: 14px 40px;
+  /* width: 144px;
+    height: 45px; */
+  background: var(--orange);
+
+  font-weight: 600;
+  font-size: 14px;
+  color: var(--white);
+}
+.ankor-button {
+}
+.skroll-button {
+}
+
+/* #endregion =============== /Hero Styles =============== */
+/*!===============================================*/
+/* #region =============== Benefits Styles =============== */
+
+/* #endregion =============== /Benefits Styles =============== */
+/*!===============================================*/
+/* #region =============== Ingredients Styles =============== */
+
+/* #endregion =============== /Ingredients Styles =============== */
+/*!===============================================*/
+/* #region =============== How made Styles =============== */
+
+/* #endregion =============== /How made Styles =============== */
+
+/*!===============================================*/
+/* #region =============== Reviews Styles =============== */
+
+/* #endregion =============== /Reviews Styles =============== */
+
+/*!===============================================*/
+/* #region =============== Footer Styles =============== */
+
+/* #endregion=============== /Footer Styles =============== */

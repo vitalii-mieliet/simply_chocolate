@@ -4,55 +4,93 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SIMPLY CHOCOLATE</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header class="header">
-      <!-- Header section -->
-      <a href="./index.html"
-        >SIMPLY CHOCOLATE <img src="./images/icons/logo_icon.png" alt="logo"
+
+    <!-- #region Page header -->
+
+    <header class="page-header">
+      <a href="./index.html" class="logo"
+        ><span class="logo-part">SIMPLY</span> CHOCOLATE
+        <img
+          src="./images/icons/logo_icon.png"
+          alt="logo"
+          width="24"
+          height="24"
       /></a>
-      <nav>
-        <ul>
-          <li><a href="./index.html">Home</a></li>
-          <li><a href="#how-its-made">How it’s made?</a></li>
-          <li><a href="#reviews">Chocolate is loved</a></li>
+      <nav class="page-nav">
+        <ul class="nav-list">
+          <li class="nav-list-item">
+            <a class="nav-list-link" href="./index.html">Home</a>
+          </li>
+          <li class="nav-list-item">
+            <a class="nav-list-link" href="#how-its-made">How it’s made?</a>
+          </li>
+          <li class="nav-list-item">
+            <a class="nav-list-link" href="#reviews">Chocolate is loved</a>
+          </li>
         </ul>
       </nav>
-      <ul class="social-media-list">
-        <li>
-          <a href="https://www.facebook.com/" target="_blank"
+      <ul class="social-list">
+        <li class="social-list-item">
+          <a
+            class="social-list-link"
+            href="https://www.facebook.com/"
+            target="_blank"
             ><img src="./images/icons/facebook.png" alt="Facebook"
           /></a>
         </li>
-        <li>
-          <a href="https://www.instagram.com/" target="_blank"
+        <li class="social-list-item">
+          <a
+            class="social-list-link"
+            href="https://www.instagram.com/"
+            target="_blank"
             ><img src="./images/icons/instagram.png" alt="Instagram"
           /></a>
         </li>
-        <li>
-          <a href="https://x.com/" target="_blank"
+        <li class="social-list-item">
+          <a class="social-list-link" href="https://x.com/" target="_blank"
             ><img src="./images/icons/twitter.svg" alt="Twitter"
           /></a>
         </li>
       </ul>
-    </header>
+
     <main>
+
       <!-- Hero section -->
+
       <section class="hero">
         <!-- Hero section -->
         <h1 class="hero-title">
           Treat yourself or a loved one to our finest ingredients for a moment
           of pure delight!
         </h1>
-        <button type="button">Buy now</button>
-        <a href="#how-its-made">How it’s made</a>
-        <a href="#footer"
+        <button class="hero-button" type="button">Buy now</button>
+        <a class="ankor-button" href="#how-its-made">How it’s made</a>
+        <a class="skroll-button" href="#footer"
           >scroll down
           <img src="./images/icons/scroll_down.png" alt="scroll_down"
         /></a>
       </section>
 
       <!-- Benefits -->
+
       <section>
         <h2>Our benefits</h2>
         <ul>
@@ -88,6 +126,7 @@
       </section>
 
       <!-- Ingredients -->
+       
       <section class="ingredients">
         <h3 class="ingredients-title">
           It all adds up to one exceptional <span>taste</span> sensation
